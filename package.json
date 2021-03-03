@@ -1,0 +1,18 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "filter": "nodemon lessons/01-filter.js",
+    "map": "nodemon lessons/02-map.js",
+    "find": "nodemon lessons/03-find.js",
+    "reduce": "nodemon lessons/04-reduce.js"
+  },
+  "keywords": [],
+  "author": "Julio Merisio <contatomerisio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
