@@ -16,10 +16,10 @@ const familyMembersAgesLargerThan19 = familyMembers.filter(
 
 //[X] - Filtrar apenas as pessoas com mais de 6 letras no nome
 
-const familyMembersNamesThan6Letters = familyMembers.filter(
+const familyMembersNamesMoreThan6Letters = familyMembers.filter(
   ({ name }) => name.length > 6
 );
 
 console.log(familyMembersFemale);
 console.log(familyMembersAgesLargerThan19);
-console.log(familyMembersNamesThan6Letters);
+console.log(familyMembersNamesMoreThan6Letters);
